@@ -1,4 +1,6 @@
-provider "aws" {}
+provider "aws" {
+  
+}
 
 resource "aws_security_group" "my_sg" {
   name = "openallEdu"
